@@ -1,0 +1,17 @@
+{
+  "name": "ReqRes API",
+  "version": "1.0.0",
+  "description": "Fake data CRUD API with custom endpoints for Pro users",
+  "documentation": "/api-docs",
+  "endpoints": {
+    "free": "/api/users",
+    "pro": "/custom-endpoints",
+    "health": "/health"
+  },
+  "features": [
+    "Fake data generation",
+    "Custom endpoints (Pro)",
+    "Clerk authentication",
+    "Stripe subscriptions"
+  ]
+}
